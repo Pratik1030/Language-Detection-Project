@@ -21,13 +21,21 @@ Both the trained model and the CountVectorizer used during training are saved as
 📁 Project Structure
 
 Language-Detection-Project/
+
 │
+
 ├── model.pkl # Trained ML model
+
 ├── vectorizer.pkl # CountVectorizer used during training
+
 ├── predict.py # Script to load model + make predictions
+
 ├── train.py # (Optional) Code used to train the model
+
 ├── requirements.txt # Required Python dependencies
+
 └── README.md # Project documentation
+
 
 🧠 How It Works
 
@@ -67,6 +75,7 @@ The model predicts the most probable language
 The predicted label is returned instantly
 
 🚀 Future Improvements
+
 🔹 1. Expand the number of supported languages
        Include widely spoken languages such as:
        Hindi
